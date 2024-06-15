@@ -1,0 +1,6 @@
+Nrr1_en [Risk-Free Benchmark Rate] - NRI01= One-year lump-sum deposit & withdrawal time deposit interest rate;
+Clsdt [Statistical Date] - Ending date of statistics. Denoted by YYYY-MM-DD
+Nrrdata [Risk-Free Rate (%)] - 
+Nrrdaydt [Dailized Risk-Free Rate (%)] - Daily data converted from annualized risk-free interest rate based on compound interest calculation.
+Nrrwkdt [Weeklized Risk-Free Rate (%)] - Weekly data converted from annualized risk-free interest rate based on compound interest calculation.
+Nrrmtdt [Monthlized Risk-Free Rate (%)] - Monthly data converted from annualized risk-free interest rate based on compound interest calculation.

@@ -1,0 +1,7 @@
+Stkcd [Stock Code] - Stock code released by the exchange of the listed company
+ShortName_EN [Stock Short Name] - Stock Short Name released by the exchange of the listed company.
+Accper [Ending Date of Statistics] - Date of accounting statement, denoted by 10 characters, e.g., 1999-12-31.
+Typrep [Statement Type] - The listed company's financial statements are consolidated statements or parent statements. A=Consolidated Statements, B=Parent Statements.
+A001100000 [Total Current Assets] - The sum of all current asset items. Financial industries excluded. Used from 1990 onwards.
+A001000000 [Total Assets] - The sum of all asset items. Used from 1990 onwards.
+A003000000 [Total Shareholders’ Equity] - The sum of all shareholders' equity items. Used from 1990 onwards.

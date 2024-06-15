@@ -1,0 +1,8 @@
+Stkcd [Stock Code] - Codes released by the Shanghai and Shenzhen Stock Exchanges
+Trddt [Trading Date] - Denoted by YYYY-MM-DD
+Opnprc [Daily Opening Price] - A Share: CNY / share, SSE B share: USD / share, SZSE B Share: HKD / share.
+Clsprc [Daily Closing Price] - A Share: CNY / share, SSE B share: USD / share, SZSE B Share: HKD / share.
+Dsmvosd [Market Value of Tradable Shares] - The number of negotiable share multiplied by its closing price. A Share: CNY 1,000, SSE B share: USD 1,000, SZSE B Share: HKD 1,000
+Dsmvtll [Total Market Value] - The total number of share issued multiplied by its closing price. A Share: CNY 1,000, SSE B share: USD 1,000, SZSE B Share: HKD 1,000
+Dretwd [Daily Return With Cash Dividend Reinvested] - Issue price is used as previous closing price of a stock on its first trading day. Please refer to “How Returns Are Calculated”.
+Dretnd [Daily Return Without Cash Dividend] - Issue price is used as previous closing price of a stock on its first trading day. Please refer to “How Returns Are Calculated”.

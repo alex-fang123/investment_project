@@ -1,0 +1,9 @@
+Stkcd [Stock Code] - Codes released by the Shanghai and Shenzhen Stock Exchanges
+Trdmnt [Trading Month] - Denoted by YYYY-MM
+Opndt [Day of Opening Price of Month] - Denoted by DD, the first trading day in the month, that is, the day when monthly opening price occurs; “DD” = No trading in the month
+Mopnprc [Monthly Opening Price] - Opening price on the first trading day of the month
+Clsdt [Day of Closing Price of Month] - Denoted by DD, the last trading day in the month, that is, the day when monthly closing price occurs; “DD” = No trading in the month
+Mclsprc [Monthly Closing Price] - Closing price on the last trading day of the month
+Msmvttl [Total Market Value] - The total number of share multiplied by its monthly closing price. A Share: CNY, SSE B share: USD, SZSE B Share: HKD.
+Mretwd [Monthly Return With Cash Dividend Reinvested] - Please refer to “How Returns Are Calculated”
+Mretnd [Monthly Return Without Cash Dividend Reinvested] - Please refer to “How Returns Are Calculated”

@@ -1,0 +1,82 @@
+<table class="simpletable">
+<caption>OLS Regression Results</caption>
+<tr>
+  <th>Dep. Variable:</th>            <td>y</td>        <th>  R-squared:         </th>  <td>   0.006</td> 
+</tr>
+<tr>
+  <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared:    </th>  <td>   0.006</td> 
+</tr>
+<tr>
+  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>  <td>   5492.</td> 
+</tr>
+<tr>
+  <th>Date:</th>             <td>Sat, 15 Jun 2024</td> <th>  Prob (F-statistic):</th>   <td>  0.00</td>  
+</tr>
+<tr>
+  <th>Time:</th>                 <td>18:02:16</td>     <th>  Log-Likelihood:    </th> <td>2.8207e+07</td>
+</tr>
+<tr>
+  <th>No. Observations:</th>     <td>14340172</td>     <th>  AIC:               </th> <td>-5.641e+07</td>
+</tr>
+<tr>
+  <th>Df Residuals:</th>         <td>14340161</td>     <th>  BIC:               </th> <td>-5.641e+07</td>
+</tr>
+<tr>
+  <th>Df Model:</th>              <td>    10</td>      <th>                     </th>      <td> </td>    
+</tr>
+<tr>
+  <th>Covariance Type:</th>         <td>HAC</td>       <th>                     </th>      <td> </td>    
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+             <td></td>                <th>coef</th>     <th>std err</th>      <th>z</th>      <th>P>|z|</th>  <th>[0.025</th>    <th>0.975]</th>  
+</tr>
+<tr>
+  <th>const</th>                   <td>   -0.0198</td> <td> 1.05e-05</td> <td>-1888.766</td> <td> 0.000</td> <td>   -0.020</td> <td>   -0.020</td>
+</tr>
+<tr>
+  <th>SMB</th>                     <td>   -0.0469</td> <td>    0.002</td> <td>  -20.301</td> <td> 0.000</td> <td>   -0.051</td> <td>   -0.042</td>
+</tr>
+<tr>
+  <th>HML</th>                     <td>   -0.0870</td> <td>    0.002</td> <td>  -37.724</td> <td> 0.000</td> <td>   -0.092</td> <td>   -0.083</td>
+</tr>
+<tr>
+  <th>RMW</th>                     <td>   -0.1290</td> <td>    0.003</td> <td>  -43.100</td> <td> 0.000</td> <td>   -0.135</td> <td>   -0.123</td>
+</tr>
+<tr>
+  <th>CMA</th>                     <td>   -0.2583</td> <td>    0.003</td> <td>  -74.989</td> <td> 0.000</td> <td>   -0.265</td> <td>   -0.252</td>
+</tr>
+<tr>
+  <th>mkt_risk_premium</th>        <td>    0.0146</td> <td>    0.001</td> <td>   17.537</td> <td> 0.000</td> <td>    0.013</td> <td>    0.016</td>
+</tr>
+<tr>
+  <th>size*Monday</th>             <td>    0.4052</td> <td>    0.004</td> <td>   98.500</td> <td> 0.000</td> <td>    0.397</td> <td>    0.413</td>
+</tr>
+<tr>
+  <th>BM*Monday</th>               <td>   -0.1054</td> <td>    0.005</td> <td>  -21.138</td> <td> 0.000</td> <td>   -0.115</td> <td>   -0.096</td>
+</tr>
+<tr>
+  <th>ROE*Monday</th>              <td> 8.785e-08</td> <td> 4.99e-07</td> <td>    0.176</td> <td> 0.860</td> <td>-8.89e-07</td> <td> 1.07e-06</td>
+</tr>
+<tr>
+  <th>INV*Monday</th>              <td>-1.165e-05</td> <td> 6.26e-06</td> <td>   -1.861</td> <td> 0.063</td> <td>-2.39e-05</td> <td> 6.22e-07</td>
+</tr>
+<tr>
+  <th>mkt_risk_premium*Monday</th> <td>    0.2521</td> <td>    0.002</td> <td>  114.172</td> <td> 0.000</td> <td>    0.248</td> <td>    0.256</td>
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+  <th>Omnibus:</th>       <td>50742369.272</td> <th>  Durbin-Watson:     </th>      <td>   1.832</td>      
+</tr>
+<tr>
+  <th>Prob(Omnibus):</th>    <td> 0.000</td>    <th>  Jarque-Bera (JB):  </th> <td>617822153652869.875</td>
+</tr>
+<tr>
+  <th>Skew:</th>             <td>68.579</td>    <th>  Prob(JB):          </th>      <td>    0.00</td>      
+</tr>
+<tr>
+  <th>Kurtosis:</th>        <td>32158.571</td>  <th>  Cond. No.          </th>      <td>8.79e+03</td>      
+</tr>
+</table><br/><br/>Notes:<br/>[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 6 lags and without small sample correction<br/>[2] The condition number is large, 8.79e+03. This might indicate that there are<br/>strong multicollinearity or other numerical problems.
