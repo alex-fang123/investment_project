@@ -47,9 +47,9 @@ class TransformerModel(nn.Module):
 
 
 # Hyperparameters
-input_seq_size = 30
+input_seq_size = 1
 output_seq_size = 1
-input_dim = input_seq_size * 32  # 特征数量
+input_dim = input_seq_size * 31  # 特征数量
 d_model = 1024
 nhead = 64
 num_encoder_layers = 3
@@ -58,7 +58,7 @@ dropout = 0.1
 seq_length = 30
 batch_size = 32
 num_epochs = 10
-learning_rate = 0.000001
+learning_rate = 0.0001
 
 
 
@@ -86,6 +86,7 @@ def get_tgt(data, num_samples, input_seq_size, output_seq_size):
 
 # use my data
 data = pd.read_feather('temp/before1.6_monthly_stock_return.feather')
+data = data.dropna()
 
 # change data type
 data['size_tag'] = data['size_tag'].astype('float64')
@@ -100,7 +101,7 @@ feature_list = ['monthly_stock_return', 'rf', 'excess_return',
                 'BM ratio', 'ROE', 'assets_increasing_rate', 'momentum', 'reversal',
                 'size_tag', 'ROE_tag', 'bm_tag', 'INV_tag', 'momentum_tag',
                 'reversal_tag', 'mkt_risk_premium', 'SMB', 'HML', 'RMW', 'CMA',
-                't+1_excess_return', 'JAN t+1', 'size*JAN', 'BM*JAN',
+                 'JAN t+1', 'size*JAN', 'BM*JAN',
                 'ROE*JAN', 'INV*JAN', 'MOM*JAN', 'REV*JAN',
                 'mkt_risk_premium*JAN']
 scaler = StandardScaler()
@@ -232,7 +233,7 @@ with torch.no_grad():
     print(f"Loss on Test set: {avg_loss:.4f}")
 
 # save the model
-torch.save(model.state_dict(), 'models/new_10_epochs.pth')
+torch.save(model.state_dict(), 'models/31_10_epochs.pth')
 
 # load the model
 # model = TransformerModel(input_dim=960, d_model=512, nhead=64, num_encoder_layers=3, dim_feedforward=128)
