@@ -48,7 +48,6 @@ In this section, we identified a factor: Gross Profit/Total Assets. We first ver
 First, ensure that git is installed, then execute the following commands in sequence:
 
 ```shell
-Copy code
 git clone https://github.com/alex-fang123/investment_project.git
 cd investment_project
 ```
