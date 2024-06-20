@@ -17,7 +17,7 @@ Note:
    - `./temp` stores some intermediate variables.
    - `./models` primarily holds failed model files (originally intended for part 3 but now discarded).
 
-# Investment Studies Group 2 Assignment
+# Investment 2 Studies Group Assignment
 ## 1. Project Introduction
 This is a classroom group assignment. For specific requirements, please refer to Project_&_Presentation.pdf in the root directory.
 
