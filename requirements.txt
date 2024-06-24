@@ -1,0 +1,9 @@
+numpy==1.26.4
+pandas==2.2.1
+scikit_learn==1.4.2
+pytorch==2.3.0
+statsmodels==0.14.0
+scipy==1.13.0
+finance_byu==0.2.0
+cudf==24.04
+numpy_ext==0.9.9
